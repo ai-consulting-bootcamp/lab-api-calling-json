@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Puma T-shirt",
+        "price": 19.99,
+        "category": "Apparel",
+        "image_path": "product_images/product_4.png"
+    },
+    {
+        "name": "Puma T-shirt",
+        "price": -5,
+        "category": "Apparel",
+        "image_path": "product_images/product_4.png"
+    }
+]
