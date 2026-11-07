@@ -1,0 +1,36 @@
+{
+  "total_requests": 2,
+  "valid_requests": 1,
+  "invalid_requests": 1,
+  "validation_errors": [
+    {
+      "request_number": 2,
+      "errors": [
+        {
+          "type": "string_too_short",
+          "loc": [
+            "name"
+          ],
+          "msg": "String should have at least 1 character",
+          "input": "",
+          "ctx": {
+            "min_length": 1
+          },
+          "url": "https://errors.pydantic.dev/2.14/v/string_too_short"
+        },
+        {
+          "type": "greater_than",
+          "loc": [
+            "price"
+          ],
+          "msg": "Input should be greater than 0",
+          "input": -20,
+          "ctx": {
+            "gt": 0.0
+          },
+          "url": "https://errors.pydantic.dev/2.14/v/greater_than"
+        }
+      ]
+    }
+  ]
+}
