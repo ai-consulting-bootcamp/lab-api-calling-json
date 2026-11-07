@@ -1,0 +1,28 @@
+[
+    {
+        "success": true,
+        "listing": {
+            "title": "Puma T-shirt - Men's Apparel",
+            "description": "Explore a stylish and sporty look with this Puma T-shirt, perfect for casual outings or active days.",
+            "features": [
+                "Classic short-sleeve design",
+                "Puma logo on the chest",
+                "Suitable for casual and sportswear"
+            ],
+            "keywords": [
+                "Puma",
+                "T-shirt",
+                "Men's apparel",
+                "Casual wear",
+                "Sportswear",
+                "Fashion"
+            ]
+        },
+        "error": null
+    },
+    {
+        "success": false,
+        "listing": null,
+        "error": "1 validation error for ProductInput\nprice\n  Input should be greater than 0 [type=greater_than, input_value=-5, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.12/v/greater_than"
+    }
+]
