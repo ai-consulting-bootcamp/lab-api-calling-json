@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Wireless Headphones",
+    "price": 79.99,
+    "category": "Electronics",
+    "additional_info": "Noise cancelling and 30-hour battery",
+    "image_base64": "aaaaaaaaaaaaaaaaaaaa"
+  },
+  {
+    "name": "",
+    "price": -20,
+    "category": "Electronics",
+    "image_base64": "aaaaaaaaaaaaaaaaaaaa"
+  }
+]
