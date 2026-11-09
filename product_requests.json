@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Navy Blue Shirt",
+    "category": "Apparel",
+    "price": 29.99
+  },
+  {
+    "name": "Navy Blue Shirt",
+    "category": "Apparel",
+    "price": -10
+  },
+  {
+    "name": "Silver Watch",
+    "category": "Accessories"
+  }
+]
