@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Wireless Headphones",
+    "price": 79.99,
+    "category": "Electronics",
+    "description": "Bluetooth headphones with noise cancellation",
+    "additional_info": "30-hour battery life",
+    "image_path": "product_images/headphones.jpg"
+  },
+  {
+    "name": "",
+    "price": -20,
+    "category": "Electronics"
+  },
+  {
+    "name": "Coffee Mug",
+    "price": 14.99,
+    "category": "Kitchen",
+    "unexpected_field": "This should be rejected"
+  }
+]

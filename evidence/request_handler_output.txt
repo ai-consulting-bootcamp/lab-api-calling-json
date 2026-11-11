@@ -1,0 +1,30 @@
+Invalid request result:
+{
+  "success": false,
+  "request_id": "invalid-001",
+  "data": null,
+  "error": {
+    "type": "validation_error",
+    "stage": "input_validation",
+    "details": [
+      {
+        "field": [
+          "name"
+        ],
+        "message": "String should have at least 2 characters"
+      },
+      {
+        "field": [
+          "price"
+        ],
+        "message": "Input should be greater than 0"
+      },
+      {
+        "field": [
+          "unexpected_field"
+        ],
+        "message": "Extra inputs are not permitted"
+      }
+    ]
+  }
+}

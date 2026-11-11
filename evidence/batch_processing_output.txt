@@ -1,0 +1,72 @@
+{
+  "total_requests": 3,
+  "successful_requests": 1,
+  "failed_requests": 2,
+  "results": [
+    {
+      "request_number": 1,
+      "success": true,
+      "stage": "completed",
+      "validated_product": {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "category": "Electronics",
+        "description": "Bluetooth headphones with noise cancellation",
+        "additional_info": "30-hour battery life",
+        "image_path": "product_images/headphones.jpg"
+      },
+      "listing": {
+        "title": "Wireless Bluetooth Headphones with Noise Cancellation",
+        "description": "Enjoy immersive wireless listening with Bluetooth headphones featuring noise cancellation and up to 30 hours of battery life. A versatile choice for music, calls, and everyday use.",
+        "features": [
+          "Bluetooth wireless connectivity",
+          "Noise cancellation for a more focused listening experience",
+          "Up to 30 hours of battery life",
+          "Priced at $79.99",
+          "Image: product_images/headphones.jpg"
+        ],
+        "keywords": [
+          "wireless headphones",
+          "Bluetooth headphones",
+          "noise-cancelling headphones",
+          "30-hour battery",
+          "electronics"
+        ]
+      }
+    },
+    {
+      "request_number": 2,
+      "success": false,
+      "stage": "input_validation",
+      "error_type": "validation_error",
+      "errors": [
+        {
+          "field": [
+            "name"
+          ],
+          "message": "String should have at least 2 characters"
+        },
+        {
+          "field": [
+            "price"
+          ],
+          "message": "Input should be greater than 0"
+        }
+      ]
+    },
+    {
+      "request_number": 3,
+      "success": false,
+      "stage": "input_validation",
+      "error_type": "validation_error",
+      "errors": [
+        {
+          "field": [
+            "unexpected_field"
+          ],
+          "message": "Extra inputs are not permitted"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "stage": "completed",
+  "validated_product": {
+    "name": "Wireless Headphones",
+    "price": 79.99,
+    "category": "Electronics",
+    "description": "Bluetooth headphones with noise cancellation",
+    "additional_info": "30-hour battery life",
+    "image_path": "product_images/headphones.jpg"
+  },
+  "listing": {
+    "title": "Wireless Bluetooth Headphones with Noise Cancellation",
+    "description": "Enjoy immersive listening with wireless Bluetooth headphones designed to help reduce surrounding noise. With up to 30 hours of battery life, they\u2019re ready for extended listening at home or on the go. Priced at $79.99.",
+    "features": [
+      "Bluetooth wireless connectivity",
+      "Noise cancellation to help reduce surrounding sounds",
+      "Up to 30 hours of battery life",
+      "Electronics category",
+      "Price: $79.99"
+    ],
+    "keywords": [
+      "wireless headphones",
+      "Bluetooth headphones",
+      "noise-cancelling headphones",
+      "30-hour battery life",
+      "wireless audio"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+
+Testing: valid_product.json
+{
+  "success": true,
+  "data": {
+    "name": "Wireless Headphones",
+    "price": 79.99,
+    "category": "Electronics",
+    "description": "Bluetooth headphones with noise cancellation",
+    "additional_info": "30-hour battery life",
+    "image_path": "product_images/headphones.jpg"
+  }
+}
+
+Testing: invalid_product.json
+{
+  "success": false,
+  "error_type": "validation_error",
+  "errors": [
+    {
+      "field": [
+        "name"
+      ],
+      "message": "String should have at least 2 characters"
+    },
+    {
+      "field": [
+        "price"
+      ],
+      "message": "Input should be greater than 0"
+    },
+    {
+      "field": [
+        "unexpected_field"
+      ],
+      "message": "Extra inputs are not permitted"
+    }
+  ]
+}
+
+Testing: malformed_product.json
+{
+  "success": false,
+  "error_type": "invalid_json",
+  "errors": [
+    "Invalid JSON at line 5, column 3: Expecting ',' delimiter"
+  ]
+}
